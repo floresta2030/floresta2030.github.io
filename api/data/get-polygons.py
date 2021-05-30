@@ -10,10 +10,10 @@ ammount = {"Found": 0, "NotFound": 0, "Duplicated": 0}
 
 
 def get_polygon(floresta):
-    if not floresta in cache:
+    if not floresta in cache and len(floresta)>5:
         cache[floresta] = True
         response = requests.get(
-            f"https://nominatim.openstreetmap.org/search.php?q={floresta}&polygon_geojson=1&format=json")
+            f"https://nominatim.openstreetmap.org/search.php?q={floresta}&polygon_geojson=1&format=json&limit=1&countrycodes=br")
         response.raise_for_status()
         slug = slugify(floresta)
         data = response.json()

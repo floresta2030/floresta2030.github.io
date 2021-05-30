@@ -7,24 +7,15 @@ from flask_cors import CORS
 from sklearn.cluster import KMeans
 import numpy as np
 import logging
-from data.utils import check_point_in_polygon
+from data.utils import check_point_in_polygons, check_points_in_polygon
 
 logging.basicConfig(level=logging.DEBUG)
 
 base_dir = os.path.dirname(__file__)
 
 
-processos_by_nr = {}
-processos_by_index = {}
-processos_nps = []
-processos_points = []
-processos_points_to_shape_compare = []
-processos_index_by_nr = {}
-
-processos = []
-
-
 def processos_full():
+    processos = []
     cache = {}
     file_name = "processos"
     file_name = f"{base_dir}/data/{file_name}.json"
@@ -35,56 +26,63 @@ def processos_full():
                 if not cache.get(processo["nrProcesso"], False):
                     processos.append(processo)
                     cache[processo["nrProcesso"]] = True
-                processos_by_nr[processo["nrProcesso"]] = processo
-                processos_index_by_nr[processo["nrProcesso"]] = processos_index_by_nr.get(
-                    processo["nrProcesso"], [])
+                processo["nps"] = []
+                processo["points"] = []
+                processo["points_to_shape"] = []
                 for address in processo["address"]:
                     if address["lat"]:
-                        i_np = len(processos_nps)
                         lat = float(address["lat"])
                         lng = float(address["lng"])
-                        processos_nps.append([lat, lng])
-                        processos_by_index[i_np] = processo
-                        processos_points.append(
+
+                        processo["nps"].append([lat, lng])
+                        processo["points"].append(
                             Point(lat, lng)
                         )
-                        processos_points_to_shape_compare.append(
+                        processo["points_to_shape"].append(
                             Point(lng, lat)
                         )
-                        processos_index_by_nr[processo["nrProcesso"]].append(
-                            i_np)
     return processos
 
 
-def filter_in_forest(forests_polygons, forests, forests_index_by_shapes_index):
+def filter_in_forest(processos, forests):
     result = []
     cache = {}
     cache_forest = {}
-    for i, point in enumerate(processos_points):
-        for j, polygons in enumerate(forests_polygons):
-            if check_point_in_polygon(point, polygons):
-                processo = processos_by_index[i]
-                if not cache.get(processo["nrProcesso"], False):
-                    result.append(
+    for processo in processos:
+        points = []
+        nps = []
+        points_to_shape = []
+        address = []
+        for i, point in enumerate(processo["points_to_shape"]):
+            found = False
+            for forest in forests:
+                if check_point_in_polygons(point, forest["shapes"]):
+                    found = True
+                    if not cache.get(processo["nrProcesso"], False):
+                        result.append(
+                            processo
+                        )
+                        cache[processo["nrProcesso"]] = True
+                    if processo["nrProcesso"] == "0018492-45":
+                        print(processo["nrProcesso"])
+                        print(forest["name"])
+                    # if not cache_forest.get(forest["id"], {}).get(processo["nrProcesso"], False):
+                    forest["processos"].append(
                         processo
                     )
-                    cache[processo["nrProcesso"]] = True
-                forest_index = forests_index_by_shapes_index[j]
-                if not cache_forest.get(forest_index, {}).get(processo["nrProcesso"], False):
-                    forests[forest_index]["processos"].append(
-                        processo
-                    )
-                    tmp = cache_forest.get(forest_index, {})
-                    tmp[processo["nrProcesso"]] = True
-                    cache_forest[forest_index] = tmp
+                    #   tmp = cache_forest.get(forest["id"], {})
+                    #   tmp[processo["nrProcesso"]] = True
+                    #   cache_forest[forest["id"]] = tmp
+            if found:
+                points.append(processo["points"][i])
+                points_to_shape.append(processo["points_to_shape"][i])
+                nps.append(processo["nps"][i])
+                address.append(processo["address"][i])
+        processo["points"] = points
+        processo["points_to_shape"] = points_to_shape
+        processo["nps"] = nps
+        processo["address"] = address
     return result
-
-
-def check_points_in_polygon(indexes, bounds):
-    for index in indexes:
-        if check_point_in_polygon(processos_points[index], bounds):
-            return True
-    return False
 
 
 def processos_get(processos, bounds):
@@ -99,24 +97,37 @@ def processos_get(processos, bounds):
                     "lng": address["lng"]
                 } for address in processo.get("address", [])
             ],
+            "nps": processo["nps"],
             "title": processo["nrProcesso"],
             "description": processo.get("description", "\n".join(address["name"] for address in processo.get("address", []))),
-        } for processo in processos if check_points_in_polygon(processos_index_by_nr[processo["nrProcesso"]], bounds)
+        } for processo in processos if check_points_in_polygon(processo["points"], bounds)
     ]
     if len(result) > 30:
-        X = np.array(processos_nps)
+        processo_by_np = []
+        nps = []
+        i = 0
+        for processo in result:
+            for f_np in processo["nps"]:
+                nps.append(f_np)
+                processo_by_np.append(processo)
+                i = i + 1
+
+        X = np.array(nps)
         kmeans = KMeans(n_clusters=30, random_state=0).fit(X)
-        unique, counts = np.unique(kmeans.labels_, return_counts=True)
+        labels = {}
+        for label in kmeans.labels_:
+            count = labels.get(label, 0)
+            labels[label] = count + 1
         result = [
             {
                 "name": str(uuid.uuid4()),
-                "label": str(int(counts[label])),
+                "label": str(int(labels[label])),
                 "geos": [{
                     "lat": float(kmeans.cluster_centers_[label][0]),
                     "lng": float(kmeans.cluster_centers_[label][1])
                 }],
-                "title": "Processos " + str(int(counts[label])),
+                "title": "Processos " + str(int(labels[label])),
                 "description": ""
-            } for label in unique
+            } for label in labels.keys()
         ]
     return result

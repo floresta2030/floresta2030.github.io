@@ -1,9 +1,6 @@
 import pickle
 import json
-import unicodedata
 import requests
-import re
-from utils import slugify
 
 
 with open('enderecos_processos.pkl', 'rb') as f:

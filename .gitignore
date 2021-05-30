@@ -20,7 +20,7 @@ yarn-debug.log*
 yarn-error.log*
 .eslintcache
 api/data/polygons
-api/data/polygons/*
+api/data/polygons-old
 build
 __pycache__
 *.pkl

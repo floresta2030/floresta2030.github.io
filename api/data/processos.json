@@ -1,0 +1,1059 @@
+[
+  {
+    "id": 0,
+    "nrProcesso": "0006391-96",
+    "address": [
+      {
+        "name": "reserva indígena Alto Turiaçu",
+        "lat": -2.8624363,
+        "lng": -46.2582744
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "nrProcesso": "1018688-27",
+    "address": [
+      {
+        "name": "Aldeia Aikanã",
+        "lat": -12.5723307,
+        "lng": -60.80685200000001
+      },
+      {
+        "name": "Reserva Indígena Tubarão Latundê",
+        "lat": -12.629107,
+        "lng": -60.62288239999999
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nrProcesso": "1017988-51",
+    "address": [
+      { "name": "Espigão do Oeste", "lat": -11.5323149, "lng": -61.0169967 },
+      { "name": "Oeste/RO", "lat": -11.5057341, "lng": -63.580611 }
+    ]
+  },
+  {
+    "id": 3,
+    "nrProcesso": "1017988-51",
+    "address": [
+      {
+        "name": "Reserva Indígena Tubarão Latundê e dois d",
+        "lat": -12.629107,
+        "lng": -60.62288239999999
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "nrProcesso": "1004100-15",
+    "address": [
+      {
+        "name": "Reserva Indígena Igarapé Lourdes",
+        "lat": -10.7606527,
+        "lng": -61.53388090000001
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "nrProcesso": "1015864-32",
+    "address": [
+      { "name": "Malhada/BA", "lat": -14.3375835, "lng": -43.7690335 },
+      {
+        "name": "Fundação Cultural Palmares",
+        "lat": -15.797106,
+        "lng": -47.8870914
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "nrProcesso": "1015864-32",
+    "address": [
+      {
+        "name": "Terra Indígena Guarani",
+        "lat": -23.9006499,
+        "lng": -46.64668320000001
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "nrProcesso": "0003431-73",
+    "address": [{ "name": "índios Rikbaktsa", "lat": "", "lng": "" }]
+  },
+  {
+    "id": 8,
+    "nrProcesso": "1001677-82",
+    "address": [
+      { "name": "Itaituba/PA", "lat": -4.2670701, "lng": -55.99311729999999 },
+      { "name": "ITAITUBA", "lat": -4.2670701, "lng": -55.99311729999999 },
+      {
+        "name": "ITAITUBA/PA .  1",
+        "lat": -4.2670701,
+        "lng": -55.99311729999999
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "nrProcesso": "1001677-82",
+    "address": [
+      { "name": "Altamira", "lat": -3.204353, "lng": -52.2079135 },
+      { "name": "Altamira/PA", "lat": -3.204353, "lng": -52.2079135 },
+      { "name": "Itaituba", "lat": -4.2670701, "lng": -55.99311729999999 },
+      {
+        "name": "Itaituba/PA passa",
+        "lat": -4.2670701,
+        "lng": -55.99311729999999
+      },
+      { "name": "Jacareacanga", "lat": -6.2222399, "lng": -57.7562125 },
+      { "name": "Itaituba/PA", "lat": -4.2670701, "lng": -55.99311729999999 }
+    ]
+  },
+  {
+    "id": 10,
+    "nrProcesso": "1016899-27",
+    "address": [
+      { "name": "Rio Guamá (TIARG", "lat": -1.4072376, "lng": -48.4284061 },
+      { "name": "Piriá/PA", "lat": -2.2730605, "lng": -46.968198 },
+      { "name": "Garrafão", "lat": -1.2000764, "lng": -47.17643150000001 }
+    ]
+  },
+  {
+    "id": 11,
+    "nrProcesso": "1016899-27",
+    "address": [
+      {
+        "name": "Norte/PA",
+        "lat": -6.754139200000001,
+        "lng": -51.06720439999999
+      },
+      { "name": "Piriá/PA", "lat": -2.2730605, "lng": -46.968198 }
+    ]
+  },
+  {
+    "id": 12,
+    "nrProcesso": "1016899-27",
+    "address": [
+      {
+        "name": "floresta amazônica",
+        "lat": -3.4653053,
+        "lng": -62.21588049999999
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "nrProcesso": "0001055-69",
+    "address": [
+      {
+        "name": "interior de Reserva Indígena da região (TI Zoró ,  TI Suruí",
+        "lat": -22.6656077,
+        "lng": -43.1408011
+      },
+      {
+        "name": "região (TI Zoró ,  TI Suruí",
+        "lat": -22.6656077,
+        "lng": -43.1408011
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "nrProcesso": "1000080-78",
+    "address": [
+      { "name": "Prado (BA", "lat": -17.3340784, "lng": -39.2250585 },
+      { "name": "Terra Indígena (TI", "lat": -14.3705149, "lng": -51.9589793 },
+      { "name": "Indígena (TI", "lat": -14.3705149, "lng": -51.9589793 },
+      { "name": "Pataxó", "lat": -5.6167322, "lng": -36.8398173 },
+      { "name": "Ilhéus", "lat": -14.7935051, "lng": -39.0463797 },
+      { "name": "Olivença", "lat": 38.6826443, "lng": -7.1026661 },
+      { "name": "Buerarema", "lat": -14.9567575, "lng": -39.3016853 },
+      {
+        "name": "Terra Indígena Pataxó",
+        "lat": -16.3297275,
+        "lng": -39.0191718
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "nrProcesso": "1000080-78",
+    "address": [
+      { "name": "Pataxó", "lat": -5.6167322, "lng": -36.8398173 },
+      { "name": "Prado-BA", "lat": -17.3340784, "lng": -39.2250585 },
+      {
+        "name": "RESERVA INDÍGENA CUMURUXATIBA",
+        "lat": -16.3715433,
+        "lng": -39.0331953
+      },
+      { "name": "indígena Tupinambá", "lat": -15.0162367, "lng": -39.054249 }
+    ]
+  },
+  {
+    "id": 16,
+    "nrProcesso": "1000080-78",
+    "address": [
+      {
+        "name": "RESERVA INDÍGENA TUPINAMBÁ",
+        "lat": -5.358388,
+        "lng": -70.9859719
+      },
+      { "name": "IMÓVEL RURAL", "lat": -23.1766243, "lng": -48.122696 }
+    ]
+  },
+  {
+    "id": 17,
+    "nrProcesso": "0000765-87",
+    "address": [
+      { "name": "Altamira", "lat": -3.204353, "lng": -52.2079135 },
+      {
+        "name": "Altamira (PA) da prática",
+        "lat": -3.2241785,
+        "lng": -52.2315641
+      },
+      {
+        "name": "reserva indígena dos Araras",
+        "lat": -3.7506485,
+        "lng": -53.0572876
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "nrProcesso": "0001913-87",
+    "address": [
+      { "name": "Parecis/RO", "lat": -12.1822491, "lng": -61.6055977 }
+    ]
+  },
+  {
+    "id": 19,
+    "nrProcesso": "0000856-47",
+    "address": [
+      {
+        "name": "RESERVA CARAMURU-CATARINA-PARAGUAÇU",
+        "lat": -15.447364,
+        "lng": -39.691456
+      },
+      {
+        "name": "reserva indígena Caramuru-Catarina-Paraguaçu",
+        "lat": -15.447364,
+        "lng": -39.691456
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "nrProcesso": "0001597-87",
+    "address": [
+      {
+        "name": "Reserva Indígena Parque do Aripuanã (TI",
+        "lat": -11.619929,
+        "lng": -59.9753131
+      },
+      { "name": "Espigão do Oeste", "lat": -11.5323149, "lng": -61.0169967 },
+      { "name": "Oeste/RO", "lat": -11.5057341, "lng": -63.580611 }
+    ]
+  },
+  {
+    "id": 21,
+    "nrProcesso": "0001682-73",
+    "address": [
+      {
+        "name": "Reserva Indígena Yanomami",
+        "lat": 2.1967619,
+        "lng": -62.7994753
+      },
+      { "name": "rio Uraricoera", "lat": 3.3903898, "lng": -61.2775917 }
+    ]
+  },
+  {
+    "id": 22,
+    "nrProcesso": "0018492-45",
+    "address": [
+      { "name": "Amazônia", "lat": -3.4653053, "lng": -62.21588049999999 },
+      {
+        "name": "Reserva Indígena \"Rio Branco",
+        "lat": -12.180098,
+        "lng": -62.5887343
+      },
+      {
+        "name": "Rio Branco",
+        "lat": -9.975337399999999,
+        "lng": -68.42932139999999
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "nrProcesso": "0004046-23",
+    "address": [
+      {
+        "name": "reserva indígena Batelão",
+        "lat": -12.5638439,
+        "lng": -47.3563615
+      },
+      { "name": "indígena Batelão", "lat": "", "lng": "" },
+      {
+        "name": "área indígena do Batelão",
+        "lat": -11.2468098,
+        "lng": -53.2070192
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "nrProcesso": "0004046-23",
+    "address": [
+      {
+        "name": "área de reserva indígena denominada Batelão",
+        "lat": "",
+        "lng": ""
+      },
+      {
+        "name": "projeto(s) de manejo florestal sustentável",
+        "lat": -3.0621302,
+        "lng": -59.9999098
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "nrProcesso": "0030719-04",
+    "address": [
+      { "name": "Cacique Timborana", "lat": "", "lng": "" },
+      { "name": "Loteamento Paraíso", "lat": -14.1069282, "lng": -48.5593014 },
+      { "name": "Prado (BA", "lat": -17.3340784, "lng": -39.2250585 },
+      { "name": "Pataxó", "lat": -5.6167322, "lng": -36.8398173 }
+    ]
+  },
+  {
+    "id": 26,
+    "nrProcesso": "0030719-04",
+    "address": [
+      { "name": "Prado-BA", "lat": -17.3340784, "lng": -39.2250585 },
+      {
+        "name": "RESERVA INDÍGENA CUMURUXATIBA",
+        "lat": -16.3715433,
+        "lng": -39.0331953
+      },
+      { "name": "indígena Tupinambá", "lat": -15.0162367, "lng": -39.054249 },
+      {
+        "name": "RESERVA INDÍGENA TUPINAMBÁ",
+        "lat": -5.358388,
+        "lng": -70.9859719
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "nrProcesso": "0030719-04",
+    "address": [
+      { "name": "IMÓVEL RURAL", "lat": -23.1766243, "lng": -48.122696 }
+    ]
+  },
+  {
+    "id": 28,
+    "nrProcesso": "0027704-27",
+    "address": [
+      { "name": "Loteamento Paraíso", "lat": -14.1069282, "lng": -48.5593014 },
+      { "name": "Prado (BA", "lat": -17.3340784, "lng": -39.2250585 },
+      { "name": "Pataxó", "lat": -5.6167322, "lng": -36.8398173 },
+      { "name": "Aldeia Cahy", "lat": -17.3350743, "lng": -39.218218 },
+      { "name": "Terra Indígena (TI", "lat": -14.3705149, "lng": -51.9589793 },
+      { "name": "Indígena (TI", "lat": -14.3705149, "lng": -51.9589793 }
+    ]
+  },
+  {
+    "id": 29,
+    "nrProcesso": "0027704-27",
+    "address": [
+      { "name": "Pataxó", "lat": -5.6167322, "lng": -36.8398173 },
+      { "name": "aldeia Cahy", "lat": -17.3350743, "lng": -39.218218 },
+      { "name": "Prado-BA", "lat": -17.3340784, "lng": -39.2250585 },
+      {
+        "name": "RESERVA INDÍGENA CUMURUXATIBA",
+        "lat": -16.3715433,
+        "lng": -39.0331953
+      },
+      { "name": "indígena Tupinambá", "lat": -15.0162367, "lng": -39.054249 }
+    ]
+  },
+  {
+    "id": 30,
+    "nrProcesso": "0027704-27",
+    "address": [
+      {
+        "name": "RESERVA INDÍGENA TUPINAMBÁ",
+        "lat": -5.358388,
+        "lng": -70.9859719
+      },
+      { "name": "IMÓVEL RURAL", "lat": -23.1766243, "lng": -48.122696 }
+    ]
+  },
+  {
+    "id": 31,
+    "nrProcesso": "0055090-03",
+    "address": [
+      {
+        "name": "reserva indígena Raposa-Serra do Sol",
+        "lat": 4.4007377,
+        "lng": -60.35972079999999
+      },
+      {
+        "name": "Hospital Geral de Roraima",
+        "lat": 2.8325189,
+        "lng": -60.68859990000001
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "nrProcesso": "0012899-30",
+    "address": [
+      { "name": "ÁREA INDÍGENA", "lat": -27.4589124, "lng": -52.6382381 },
+      { "name": "indígena Myky", "lat": -12.177801, "lng": -58.400159 }
+    ]
+  },
+  {
+    "id": 33,
+    "nrProcesso": "0001955-58",
+    "address": [
+      {
+        "name": "reserva indígena Vale do Guaporé",
+        "lat": -13.7386104,
+        "lng": -60.03776939999999
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "nrProcesso": "0000435-45",
+    "address": [
+      {
+        "name": "reserva indígena Apyterewa",
+        "lat": -5.649993299999999,
+        "lng": -52.0097901
+      },
+      { "name": "Redenção (PA", "lat": -8.0256958, "lng": -50.0321264 }
+    ]
+  },
+  {
+    "id": 35,
+    "nrProcesso": "0002705-83",
+    "address": [
+      { "name": "Espigão do Oeste", "lat": -11.5323149, "lng": -61.0169967 },
+      { "name": "Oeste/RO", "lat": -11.5057341, "lng": -63.580611 },
+      { "name": "cidade de Sonora/MT", "lat": -17.5822486, "lng": -54.7551442 }
+    ]
+  },
+  {
+    "id": 36,
+    "nrProcesso": "0002822-48",
+    "address": [
+      {
+        "name": "reserva indígena Barra Velha (Decreto nº 396",
+        "lat": -26.6331439,
+        "lng": -48.6846608
+      },
+      { "name": "Barra Velha", "lat": -26.6331439, "lng": -48.6846608 }
+    ]
+  },
+  {
+    "id": 37,
+    "nrProcesso": "0006391-96",
+    "address": [
+      {
+        "name": "reserva indígena Alto Turiaçu",
+        "lat": -2.8624363,
+        "lng": -46.2582744
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "nrProcesso": "0003951-80",
+    "address": [
+      { "name": "região de Ji-Paraná", "lat": -10.9093476, "lng": -61.9216885 },
+      { "name": "Espigão D", "lat": -11.5323149, "lng": -61.0169967 },
+      { "name": "Œ Rio de Janeiro", "lat": -22.8625345, "lng": -43.2234737 }
+    ]
+  },
+  {
+    "id": 39,
+    "nrProcesso": "0003951-80",
+    "address": [
+      { "name": "Œ Rio de Janeiro", "lat": -22.8625345, "lng": -43.2234737 }
+    ]
+  },
+  {
+    "id": 40,
+    "nrProcesso": "0000863-39",
+    "address": [
+      { "name": "RESERVA INDÍGENA PATAXÓ HÃ HÃ HÃE", "lat": "", "lng": "" },
+      { "name": "ORIGINÁRIA nº 312", "lat": "", "lng": "" },
+      { "name": "Originária nº 312-1/BA", "lat": "", "lng": "" }
+    ]
+  },
+  {
+    "id": 41,
+    "nrProcesso": "0015367-85",
+    "address": [
+      { "name": "Fazenda Ouro Verde", "lat": -26.0588127, "lng": -48.7353357 },
+      {
+        "name": "Fazenda Bom Jardim",
+        "lat": -21.0166947,
+        "lng": -44.92446229999999
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "nrProcesso": "0015367-85",
+    "address": [
+      {
+        "name": "Reserva Indígena do Vale do Guaporé",
+        "lat": -13.7386104,
+        "lng": -60.03776939999999
+      },
+      {
+        "name": "Córrego Piolho",
+        "lat": -14.0950864,
+        "lng": -59.95460119999999
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "nrProcesso": "0006333-18",
+    "address": [
+      { "name": "FLORESTA NATIVA", "lat": -23.4238092, "lng": -51.979475 },
+      { "name": "Aroeira", "lat": -7.545320299999999, "lng": -35.7063659 },
+      { "name": "Aldeia 'Auen", "lat": "", "lng": "" }
+    ]
+  },
+  {
+    "id": 44,
+    "nrProcesso": "0006333-18",
+    "address": [{ "name": "Paraíso", "lat": -21.0146981, "lng": -48.7750357 }]
+  },
+  {
+    "id": 45,
+    "nrProcesso": "0007226-95",
+    "address": [
+      {
+        "name": "RESERVA INDÍGENA CUMURUXATIBA",
+        "lat": -16.3715433,
+        "lng": -39.0331953
+      },
+      { "name": "indígena Tupinambá", "lat": -15.0162367, "lng": -39.054249 }
+    ]
+  },
+  {
+    "id": 46,
+    "nrProcesso": "0025067-87",
+    "address": [
+      {
+        "name": "RESERVA INDÍGENA CINTA",
+        "lat": -10.6533453,
+        "lng": -61.7778473
+      },
+      { "name": "Aripuanã/MT", "lat": -10.1750649, "lng": -59.446654 }
+    ]
+  },
+  {
+    "id": 47,
+    "nrProcesso": "0000760-62",
+    "address": [
+      {
+        "name": "RESERVA INDÍGENA TUPINAMBÁ",
+        "lat": -5.358388,
+        "lng": -70.9859719
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "nrProcesso": "0000211-81",
+    "address": [
+      {
+        "name": "RESERVA INDÍGENA TUPINAMBÁ",
+        "lat": -5.358388,
+        "lng": -70.9859719
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "nrProcesso": "0002506-86",
+    "address": [
+      { "name": "PACARAIMA", "lat": 4.4786077, "lng": -61.1469673 },
+      { "name": "Pacaraima", "lat": 4.4786077, "lng": -61.1469673 },
+      { "name": "Venezuela", "lat": 6.42375, "lng": -66.58973 },
+      {
+        "name": "indígena (EREsp 988 . 616/RR ,  Rel",
+        "lat": 1.5957682,
+        "lng": -60.58206759999999
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "nrProcesso": "0002506-86",
+    "address": [{ "name": "Pacaraima", "lat": 4.4786077, "lng": -61.1469673 }]
+  },
+  {
+    "id": 51,
+    "nrProcesso": "0000711-46",
+    "address": [
+      { "name": "Amazônia", "lat": -3.4653053, "lng": -62.21588049999999 }
+    ]
+  },
+  {
+    "id": 52,
+    "nrProcesso": "0042106-84",
+    "address": [
+      {
+        "name": "Mineração Onça Puma",
+        "lat": -6.578813999999999,
+        "lng": -51.08789059999999
+      },
+      {
+        "name": "Empreendimento Mineração Onça Puma",
+        "lat": -6.578813999999999,
+        "lng": -51.08789059999999
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "nrProcesso": "0042106-84",
+    "address": [
+      { "name": "vale S/A ,  juntados aos anexos I", "lat": "", "lng": "" },
+      { "name": "Rio Cateté", "lat": -22.9279602, "lng": -43.1807701 }
+    ]
+  },
+  {
+    "id": 54,
+    "nrProcesso": "0042106-84",
+    "address": [
+      {
+        "name": "Projeto Grande Carajás",
+        "lat": -6.276943999999999,
+        "lng": -50.581667
+      },
+      {
+        "name": "Paraupebas (Carajás",
+        "lat": -6.069578700000001,
+        "lng": -50.06658729999999
+      },
+      { "name": "Carajás", "lat": -10.1875381, "lng": -48.3418338 },
+      { "name": "Itaqui", "lat": -29.2429935, "lng": -56.4719928 },
+      {
+        "name": "Programa Grande Carajás",
+        "lat": -6.276943999999999,
+        "lng": -50.581667
+      },
+      { "name": "hidrelétrica Tucuruí", "lat": -3.8323082, "lng": -49.6492538 },
+      {
+        "name": "serra de Carajás",
+        "lat": -6.276943999999999,
+        "lng": -50.581667
+      },
+      { "name": "Marabá", "lat": -5.3506389, "lng": -49.1201916 },
+      {
+        "name": "floresta Amazônica",
+        "lat": -3.4653053,
+        "lng": -62.21588049999999
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "nrProcesso": "0042106-84",
+    "address": [
+      { "name": "Amazônia", "lat": -3.4653053, "lng": -62.21588049999999 },
+      {
+        "name": "Projeto Ferro Carajás",
+        "lat": -6.3921247,
+        "lng": -50.3106709
+      },
+      {
+        "name": "barragem de Tucuruí",
+        "lat": -4.318118999999999,
+        "lng": -49.5483671
+      },
+      {
+        "name": "Serra Pelada",
+        "lat": -5.933334899999999,
+        "lng": -49.67071379999999
+      },
+      { "name": "Sul", "lat": -25.4341822, "lng": -49.2663144 },
+      {
+        "name": "Café Cacique ,  Varig ,  Sul América",
+        "lat": -23.2904046,
+        "lng": -51.2165825
+      },
+      {
+        "name": "Café Cacique ,  Varig ,  Sul América Seguros",
+        "lat": -23.324875,
+        "lng": -51.1547443
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "nrProcesso": "0042106-84",
+    "address": [
+      {
+        "name": "serra de Carajás",
+        "lat": -6.276943999999999,
+        "lng": -50.581667
+      },
+      { "name": "Amazônia", "lat": -3.4653053, "lng": -62.21588049999999 },
+      {
+        "name": "floresta Amazônica",
+        "lat": -3.4653053,
+        "lng": -62.21588049999999
+      },
+      { "name": "firma Arruda", "lat": -15.8037566, "lng": -42.233026 },
+      { "name": "rio Guaporé", "lat": -13.5141458, "lng": -61.88646050000001 },
+      { "name": "Sul", "lat": -25.4341822, "lng": -49.2663144 },
+      { "name": "chapada dos Parecis", "lat": -13, "lng": -59.99999999999999 }
+    ]
+  },
+  {
+    "id": 57,
+    "nrProcesso": "0042106-84",
+    "address": [
+      { "name": "Manaus", "lat": -3.1190275, "lng": -60.0217314 },
+      { "name": "Amazônia", "lat": -3.4653053, "lng": -62.21588049999999 },
+      {
+        "name": "estrada Manaus-Boavista",
+        "lat": 2.804515,
+        "lng": -60.6882397
+      },
+      {
+        "name": "mineração Taboca S",
+        "lat": -3.118616400000001,
+        "lng": -60.0268829
+      },
+      { "name": "Paranapanema", "lat": -23.3863639, "lng": -48.7220328 },
+      {
+        "name": "usina de Balbina",
+        "lat": -1.917222,
+        "lng": -59.47361099999999
+      },
+      { "name": "Balbina", "lat": -1.9181842, "lng": -59.4898518 },
+      { "name": "rio Uatumã", "lat": -2.2783444, "lng": -58.51724340000001 },
+      { "name": "Pitinga", "lat": -16.511536, "lng": -39.073658 },
+      { "name": "Uatumã", "lat": -2.2783444, "lng": -58.51724340000001 },
+      { "name": "Port Alberni", "lat": 49.2338882, "lng": -124.8055494 }
+    ]
+  },
+  {
+    "id": 58,
+    "nrProcesso": "0042106-84",
+    "address": [{ "name": "Rio + 20", "lat": -22.9047075, "lng": -43.1748865 }]
+  },
+  {
+    "id": 59,
+    "nrProcesso": "0042106-84",
+    "address": [
+      { "name": "Xikrin ;  e b", "lat": -15.7754136, "lng": -47.9170497 },
+      { "name": "Rio Cateté", "lat": -22.9279602, "lng": -43.1807701 }
+    ]
+  },
+  {
+    "id": 60,
+    "nrProcesso": "0042106-84",
+    "address": [
+      {
+        "name": "projeto Onça Puma",
+        "lat": -6.578813999999999,
+        "lng": -51.08789059999999
+      },
+      {
+        "name": "empreendimento Onça Puma",
+        "lat": -6.574276299999999,
+        "lng": -51.092391
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "nrProcesso": "0042106-84",
+    "address": [
+      { "name": "Onça Puma", "lat": -6.574276299999999, "lng": -51.092391 },
+      {
+        "name": "empreendimento Onça Puma deverão",
+        "lat": -6.574276299999999,
+        "lng": -51.092391
+      },
+      { "name": "Ferro Carajás", "lat": -6.0546273, "lng": -50.1775143 }
+    ]
+  },
+  {
+    "id": 62,
+    "nrProcesso": "0042106-84",
+    "address": [
+      { "name": "Aldeia Dujdêkô", "lat": -15.7997144, "lng": -47.8633788 },
+      {
+        "name": "Aldeia Cateté) ;  60",
+        "lat": -22.9279602,
+        "lng": -43.1807701
+      },
+      {
+        "name": "Mineração Onça Puma",
+        "lat": -6.578813999999999,
+        "lng": -51.08789059999999
+      },
+      { "name": "Aldeia Cateté", "lat": -6.236341899999999, "lng": -50.8099577 }
+    ]
+  },
+  {
+    "id": 63,
+    "nrProcesso": "0042106-84",
+    "address": [
+      { "name": "Rio Cateté", "lat": -22.9279602, "lng": -43.1807701 }
+    ]
+  },
+  {
+    "id": 64,
+    "nrProcesso": "0048621-67",
+    "address": [
+      { "name": "Aldeia Sararé", "lat": -14.7908425, "lng": -59.398394 },
+      {
+        "name": "Conquista D'Oeste",
+        "lat": -14.5367275,
+        "lng": -59.54690060000001
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "nrProcesso": "0015798-40",
+    "address": [
+      {
+        "name": "Fazenda Taj Mahal (fl .  93",
+        "lat": 27.1751448,
+        "lng": 78.0421422
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "nrProcesso": "0015798-40",
+    "address": [
+      { "name": "Fazenda Taj Mahal", "lat": -12.7467758, "lng": -54.7386213 },
+      { "name": "Prado/BA", "lat": -17.3340784, "lng": -39.2250585 },
+      { "name": "Pataxó", "lat": -5.6167322, "lng": -36.8398173 },
+      {
+        "name": "Fazendas Porta da Magia",
+        "lat": -16.7093235,
+        "lng": -49.3013154
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "nrProcesso": "0015798-40",
+    "address": [
+      { "name": "índios Pataxó", "lat": -19.0368199, "lng": -43.1161206 }
+    ]
+  },
+  {
+    "id": 68,
+    "nrProcesso": "0003570-73",
+    "address": [
+      {
+        "name": "THERMAS DO RIO QUENTE",
+        "lat": -17.772358,
+        "lng": -48.75476339999999
+      },
+      {
+        "name": "ÁREA INDÍGENA DENOMINADA KARAJÁ DE ARUANÃ I",
+        "lat": -4.792866399999999,
+        "lng": -50.1432301
+      },
+      { "name": "ARUANÃ I ,  II", "lat": -16.6944908, "lng": -49.2015902 },
+      { "name": "GOIÁS", "lat": -15.7050424, "lng": -49.36531489999999 },
+      {
+        "name": "área denominada Terra Indígena Karajá de Aruanã I",
+        "lat": -14.9143673,
+        "lng": -51.0811899
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "nrProcesso": "0003570-73",
+    "address": [
+      { "name": "Aruanã I e III", "lat": -16.6812302, "lng": -49.202602 }
+    ]
+  },
+  {
+    "id": 70,
+    "nrProcesso": "0002913-41",
+    "address": [
+      {
+        "name": "reserva indígena Caramuru/Paraguaçu",
+        "lat": -15.447364,
+        "lng": -39.691456
+      },
+      { "name": "Pau Brasil", "lat": -16.4013596, "lng": -39.0431891 },
+      { "name": "Fazenda Mutarimirim", "lat": -15.7997144, "lng": -47.8633788 }
+    ]
+  },
+  {
+    "id": 71,
+    "nrProcesso": "0002913-41",
+    "address": [
+      {
+        "name": "Terra Indígena Raposa Serra do Sol (Petição 3388 ,  Rel .  Min .  CARLOS",
+        "lat": 4.4007377,
+        "lng": -60.35972079999999
+      },
+      {
+        "name": "Indígena Raposa Serra do Sol (Petição 3388 ,  Rel .  Min .  CARLOS",
+        "lat": 4.4007377,
+        "lng": -60.35972079999999
+      },
+      {
+        "name": "s Posto Indígena Pataxó",
+        "lat": -20.4687739,
+        "lng": -45.0415822
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "nrProcesso": "0027620-26",
+    "address": [
+      { "name": "Aripuanã (Roosevelt", "lat": -10.1750649, "lng": -59.446654 },
+      { "name": "indígena Aripuanã", "lat": -10.5842774, "lng": -59.9108207 },
+      { "name": "RONDON", "lat": -21.223339, "lng": -50.456727 }
+    ]
+  },
+  {
+    "id": 73,
+    "nrProcesso": "0027620-26",
+    "address": [
+      { "name": "índios (Aparecida", "lat": -16.7538145, "lng": -49.3198455 },
+      { "name": "Lages", "lat": -27.8154489, "lng": -50.3263737 }
+    ]
+  },
+  {
+    "id": 74,
+    "nrProcesso": "0027620-26",
+    "address": [
+      { "name": "Cacoal", "lat": -11.4346957, "lng": -61.45669909999999 }
+    ]
+  },
+  {
+    "id": 75,
+    "nrProcesso": "0023602-59",
+    "address": [
+      { "name": "Colônia/BA", "lat": -15.1442259, "lng": -39.7236003 },
+      {
+        "name": "Parque dos Rios",
+        "lat": -3.0899848,
+        "lng": -59.99652930000001
+      },
+      {
+        "name": "Parque de Exposições/Equiprovas",
+        "lat": -12.9238129,
+        "lng": -38.3604982
+      },
+      { "name": "Pataxó", "lat": -5.6167322, "lng": -36.8398173 }
+    ]
+  },
+  {
+    "id": 76,
+    "nrProcesso": "0023602-59",
+    "address": [
+      { "name": "Colônia/BA", "lat": -15.1442259, "lng": -39.7236003 },
+      {
+        "name": "Reserva Indígena Caramuru-Catarina-Paraguaçu",
+        "lat": -15.447364,
+        "lng": -39.691456
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "nrProcesso": "0023602-59",
+    "address": [
+      {
+        "name": "ÁREA DE RESERVA INDÍGENA DENOMINADA CARAMURU-CATARINA-PARAGUAÇU",
+        "lat": "",
+        "lng": ""
+      },
+      { "name": "HECTARES", "lat": -22.1947082, "lng": -54.8341887 }
+    ]
+  },
+  {
+    "id": 78,
+    "nrProcesso": "0023602-59",
+    "address": [
+      {
+        "name": "reserva indígena Caramuru-Catarina-Paraguaçu",
+        "lat": -15.447364,
+        "lng": -39.691456
+      },
+      {
+        "name": "reserva indígena Caramuru-Catarnia-Paraguaçu",
+        "lat": -15.447364,
+        "lng": -39.691456
+      },
+      { "name": "Colônia/BA", "lat": -15.1442259, "lng": -39.7236003 },
+      { "name": "Pataxó", "lat": -5.6167322, "lng": -36.8398173 }
+    ]
+  },
+  {
+    "id": 79,
+    "nrProcesso": "0023602-59",
+    "address": [
+      {
+        "name": "Fazendas \"Porta",
+        "lat": -13.6572483,
+        "lng": -57.89060449999999
+      },
+      {
+        "name": "Fazendas \"Porta da Magia",
+        "lat": -16.7093235,
+        "lng": -49.3013154
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "nrProcesso": "0023602-59",
+    "address": [
+      { "name": "índios Pataxó", "lat": -19.0368199, "lng": -43.1161206 },
+      {
+        "name": "bairro Parque dos Rios",
+        "lat": -3.0899848,
+        "lng": -59.99652930000001
+      },
+      { "name": "Paque dos Rios", "lat": -3.0899848, "lng": -59.99652930000001 }
+    ]
+  },
+  {
+    "id": 81,
+    "nrProcesso": "0002708-51",
+    "address": [
+      { "name": "Alto Rio Guamá", "lat": -2.3220802, "lng": -46.76959420000001 }
+    ]
+  },
+  {
+    "id": 82,
+    "nrProcesso": "0002708-51",
+    "address": [
+      { "name": "INDÍGENA TEMBÉ", "lat": -2.2940428, "lng": -48.3384355 }
+    ]
+  }
+]

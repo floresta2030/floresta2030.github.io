@@ -57,8 +57,8 @@ export default class BingMap extends React.Component<IMapProps, any> {
       this.areasEntities = {};
     }
     const resp = await axios.get(
-      `https://rodvieirasilva.pythonanywhere.com/pins?zoom=${zoom}&bounds=${
-      //`http://localhost:5000/pins?zoom=${zoom}&bounds=${
+      //`https://rodvieirasilva.pythonanywhere.com/pins?zoom=${zoom}&bounds=${
+      `http://localhost:5000/pins?zoom=${zoom}&bounds=${
         this.map.getBounds().bounds
       }`
     );
@@ -79,12 +79,12 @@ export default class BingMap extends React.Component<IMapProps, any> {
         this.map.entities.push(pushPin);
         Microsoft.Maps.Events.addHandler(pushPin, "click", this.pushpinClicked);
         console.log(zoom, resp.data.length);
-        if (zoom >= 10 && resp.data.length < 6) {
-          if (this.areasEntities[pin.name].length != pin.geos.length) {
+        if (zoom >= 10 && resp.data.length < 20) {
+          //if (this.areasEntities[pin.name].length != pin.geos.length) {
             var shape = Microsoft.Maps.GeoJson.read(geo.json);
             this.areasEntities[pin.name].push(shape);
             this.map.entities.push(shape);
-          }
+          //}
         }
       }
     }

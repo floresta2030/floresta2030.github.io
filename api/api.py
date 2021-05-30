@@ -1,11 +1,13 @@
 import flask
+import sys
+import traceback
 from shapely.geometry import Point, Polygon, shape, box
 from flask import request, jsonify
 from flask_cors import CORS
 from sklearn.cluster import KMeans
 import numpy as np
 import logging
-from forests import forests_get, forests_full, shapes_get
+from forests import forests_get, forests_full
 from processos import processos_get, processos_full, filter_in_forest
 
 logging.basicConfig(level=logging.DEBUG)
@@ -16,9 +18,8 @@ app.config["DEBUG"] = True
 app.config['CORS_HEADERS'] = 'Content-Type'
 
 forests = forests_full()
-shapes, forests_index_by_shapes_index = shapes_get()
 processos = processos_full()
-processos = filter_in_forest(shapes, forests, forests_index_by_shapes_index)
+processos = filter_in_forest(processos, forests)
 
 
 @app.route('/pins', methods=['GET'])
@@ -37,7 +38,13 @@ def point_get():
                     "text": forest.get("label", forest["name"]),
                     "color": "Green",
                     "title": forest.get("title", forest["name"]),
-                    "description": forest.get("description", "\n".join(forest.get("processos", {}))),
+                    "description": 
+                        forest.get(
+                            "description",
+                            "\n".join(
+                                [processo["nrProcesso"] for processo in forest.get("processos", [])]
+                            )
+                        ),
                     "geos": forest.get("geos")
 
                 }
@@ -45,17 +52,19 @@ def point_get():
         for processo in ps:
             result.append(
                 {
-                    "name": processo.get("name", processo["nrProcesso"]),
-                    "text": processo.get("label", processo["nrProcesso"]),
+                    "name": processo["name"],
+                    "text": processo["label"],
                     "color": "Red",
-                    "title": processo.get("title", processo["nrProcesso"]),
-                    "description": processo.get("description", "\n".join(address["name"] for address in forest.get("address", []))),
-                    "geos": processo.get("geos")
+                    "title": processo["title"],
+                    "description": processo.get("description", "\n".join([address["name"] for address in processo.get("address", [])])),
+                    "geos": processo["geos"]
                 }
             )
 
     except Exception as ex:
-        result = ex
+        traceback.print_exc(file=sys.stdout)
+        app.logger.error("Error on get pins", ex)
+        result = str(ex)
 
     return jsonify(result)
 
