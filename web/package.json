@@ -11,10 +11,12 @@
     "@types/node": "^12.20.13",
     "@types/react": "^17.0.8",
     "@types/react-dom": "^17.0.5",
+    "axios": "^0.21.1",
     "bingmaps-react": "^1.0.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "rxjs": "^7.1.0",
     "typescript": "^4.3.2",
     "web-vitals": "^1.1.2"
   },
@@ -23,7 +25,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "githubio": "robocopy build\\ .\\ /E /S || echo COPY"
+    "githubio": "robocopy build\\ ..\\ /E /S || echo COPY"
   },
   "eslintConfig": {
     "extends": [

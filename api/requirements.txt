@@ -1,0 +1,4 @@
+shapely
+flask
+flask_cors
+sklearn

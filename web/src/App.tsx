@@ -24,7 +24,7 @@ export const App: React.FunctionComponent = () => {
     >
      <BingMap
       mapOptions={{
-        center: [47.60357, -122.32945]
+        center: [-11.123341, -64.481926]
       }}
     />
     </Stack>
